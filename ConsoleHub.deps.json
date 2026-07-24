@@ -1,0 +1,192 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ConsoleHub/1.0.9": {
+        "dependencies": {
+          "Microsoft.Web.WebView2": "1.0.3124.44",
+          "Porta.Pty": "1.0.7",
+          "Microsoft.Web.WebView2.Core": "1.0.3124.44",
+          "Microsoft.Web.WebView2.WinForms": "1.0.3124.44",
+          "Microsoft.Web.WebView2.Wpf": "1.0.3124.44"
+        },
+        "runtime": {
+          "ConsoleHub.dll": {}
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.3124.44": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.3124.44"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.3124.44"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.3124.44"
+          }
+        }
+      },
+      "Porta.Pty/1.0.7": {
+        "dependencies": {
+          "Vanara.PInvoke.Kernel32": "4.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Porta.Pty.dll": {
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.7.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libporta_pty.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libporta_pty.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libporta_pty.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libporta_pty.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Vanara.Core/4.2.1": {
+        "runtime": {
+          "lib/net9.0-windows7.0/Vanara.Core.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.2.1.0"
+          }
+        },
+        "resources": {
+          "lib/net9.0-windows7.0/fr/Vanara.Core.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      },
+      "Vanara.PInvoke.Kernel32/4.2.1": {
+        "dependencies": {
+          "Vanara.Core": "4.2.1",
+          "Vanara.PInvoke.Shared": "4.2.1"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/Vanara.PInvoke.Kernel32.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.2.1.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Shared/4.2.1": {
+        "dependencies": {
+          "Vanara.Core": "4.2.1"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/Vanara.PInvoke.Shared.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.2.1.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Core/1.0.3124.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.3124.44",
+            "fileVersion": "1.0.3124.44"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.WinForms/1.0.3124.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.3124.44",
+            "fileVersion": "1.0.3124.44"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Wpf/1.0.3124.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.3124.44",
+            "fileVersion": "1.0.3124.44"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleHub/1.0.9": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2/1.0.3124.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQb+ACD3ILvHxztxqCWLbhYmFNf5dH0HPhVKFYg020rpeQPkadH0nkVOSsgfSyBDMLypI9iMBeD6uVcVxsKLkg==",
+      "path": "microsoft.web.webview2/1.0.3124.44",
+      "hashPath": "microsoft.web.webview2.1.0.3124.44.nupkg.sha512"
+    },
+    "Porta.Pty/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ARvF8LQTu9qPK7O+i9Mb0bZPuYTt7tdBhhFdCq3FmghIEasJYN3hHToKX6uWaSI6SEOpe2kmhinV74RzdN6gJg==",
+      "path": "porta.pty/1.0.7",
+      "hashPath": "porta.pty.1.0.7.nupkg.sha512"
+    },
+    "Vanara.Core/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S6Hk/up/27HfKK2PaXx0oWE8szV0dktT0u2n5xL7iNFbS/zC7K7ZA7i1h6I8LpHwQNbvPddWewb/mSEmZl00/Q==",
+      "path": "vanara.core/4.2.1",
+      "hashPath": "vanara.core.4.2.1.nupkg.sha512"
+    },
+    "Vanara.PInvoke.Kernel32/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RDHekPrUI+u8+3Iy6/X7wV+TDTSf+OwWLhmWhQBUgk2QfK6a0jjWzJvxowC6NQXCHk18s7z3cFaoQXlnbMymqg==",
+      "path": "vanara.pinvoke.kernel32/4.2.1",
+      "hashPath": "vanara.pinvoke.kernel32.4.2.1.nupkg.sha512"
+    },
+    "Vanara.PInvoke.Shared/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EVLvS02V6mL3xWo4cMv0OCo5H3uVR0eWxb0TtfcoI/SVaCKYWi1F000nax+uuEBJGmS90cfpYDvsgPn408b2ag==",
+      "path": "vanara.pinvoke.shared/4.2.1",
+      "hashPath": "vanara.pinvoke.shared.4.2.1.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2.Core/1.0.3124.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.WinForms/1.0.3124.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Wpf/1.0.3124.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

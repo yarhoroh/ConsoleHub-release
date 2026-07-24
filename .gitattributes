@@ -1,0 +1,7 @@
+# This repository is a compiled build, not a web project. The shipped web assets
+# (the UI and the vendored Monaco/xterm libraries) are marked vendored so GitHub
+# does not report them as the project's language.
+wwwroot/** linguist-vendored
+*.js linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored

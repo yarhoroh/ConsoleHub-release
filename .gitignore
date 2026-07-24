@@ -1,0 +1,3 @@
+# Runtime profile created when the app is run from this folder — never publish
+# it: it holds the local WebView2 cache, cookies and localStorage.
+ConsoleHub.exe.WebView2/
